@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Disconnected</string>
+    <string name="preference_category_status">Status sekarang</string>
+    <string name="preference_category_turn_off">Matikan</string>
+    <string name="preference_category_turn_on">Aktifkan</string>
+    <string name="set">Set</string>
+    <string name="set_time_interval">Set interval waktu</string>
+    <string name="done">Selesai</string>
+    <string name="min">min</string>
+    <string name="status_wifi">Wi-Fi</string>
+    <string name="status_mobile">Mobile data</string>
+    <string name="wifi_at_time">Wi-Fi pada waktu</string>
+    <string name="time_format">%1$s:%2$s</string>
+    <string name="wifi_with_interval">Wi-Fi dengan interval</string>
+    <string name="mobile_data_at_time">Mobile data pada waktu</string>
+    <string name="mobile_data_with_interval">Mobile data dengan interval</string>
+    <string name="interval_format">%1$s min</string>
+    <string name="interval_min">min</string>
+    <string name="positive_dialog_button">Set</string>
+    <string name="negative_dialog_button">Batal</string>
+    <string name="notification_msg_turn_off_wifi">Mematikan Wi-Fi&#8230;</string>
+    <string name="notification_msg_turn_off_wifi_done">WiFi dimatikan</string>
+    <string name="notification_msg_turn_off_network">Mematikan mobile data&#8230;</string>
+    <string name="notification_msg_turn_off_network_done">Mobile data dimatikan</string>
+    <string name="notification_msg_turn_on_wifi">Mengaktifkan WiFi&#8230;</string>
+    <string name="notification_msg_turn_on_wifi_done">WiFi diaktifkan</string>
+    <string name="notification_msg_turn_on_network">Menyalakan mobile data&#8230;</string>
+    <string name="notification_msg_turn_on_network_done">Mobile data diaktifkan</string>
+    <string name="alert_same_time_message">Waktu ini telah digunakan untuk aksi lainnya, mohon tambah atau kurangi setidaknya 1 menit.</string>
+    <string name="alert_same_time_title">Peringatan</string>
+    <string name="action_goto_settings">Ke Pengaturan</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_help">Bantuan</string>
+    <string name="help_html">help_view.html</string>
+    <string name="email_title">Turn Me Off Feedback</string>
+    <string name="email_chooser">Kirim Email&#8230;</string>
+</resources>
