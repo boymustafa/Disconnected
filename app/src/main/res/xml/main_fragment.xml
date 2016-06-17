@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.mustafa.silentplease">
+    <PreferenceCategory android:title="@string/preference_category_status">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_status_wifi"
+            android:title="@string/status_wifi"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_status_mobile"
+            android:title="@string/status_mobile"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_category_turn_off">
+        <com.mustafa.silentplease.fragments.TimeDIalogFragment
+            android:key="pref_wifi_at_time_off"
+            android:layout="@layout/preference_switch_item"
+            android:summary="@string/time_format"
+            android:title="@string/wifi_at_time" />
+
+        <com.mustafa.silentplease.fragments.TimeIntervalDialogFragment
+            android:defaultValue="5"
+            android:dialogMessage="@string/min"
+            android:key="pref_wifi_with_interval_off"
+            android:layout="@layout/preference_switch_item"
+            android:max="60"
+            android:summary="@string/interval_format"
+            android:title="@string/wifi_with_interval"
+            custom:min="1" />
+
+        <com.mustafa.silentplease.fragments.TimeDIalogFragment
+            android:key="pref_mobile_data_at_time_off"
+            android:layout="@layout/preference_switch_item"
+            android:summary="@string/time_format"
+            android:title="@string/mobile_data_at_time" />
+
+        <com.mustafa.silentplease.fragments.TimeIntervalDialogFragment
+            android:defaultValue="5"
+            android:dialogMessage="@string/min"
+            android:key="pref_mobile_data_with_interval_off"
+            android:layout="@layout/preference_switch_item"
+            android:max="60"
+            android:summary="@string/interval_format"
+            android:title="@string/mobile_data_with_interval"
+            custom:min="1" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_category_turn_on">
+        <com.mustafa.silentplease.fragments.TimeDIalogFragment
+            android:key="pref_wifi_at_time_on"
+            android:layout="@layout/preference_switch_item"
+            android:summary="@string/time_format"
+            android:title="@string/wifi_at_time" />
+
+        <com.mustafa.silentplease.fragments.TimeIntervalDialogFragment
+            android:defaultValue="5"
+            android:dialogMessage="@string/min"
+            android:key="pref_wifi_with_interval_on"
+            android:layout="@layout/preference_switch_item"
+            android:max="60"
+            android:summary="@string/interval_format"
+            android:title="@string/wifi_with_interval"
+            custom:min="1" />
+
+        <com.mustafa.silentplease.fragments.TimeDIalogFragment
+            android:key="pref_mobile_data_at_time_on"
+            android:layout="@layout/preference_switch_item"
+            android:summary="@string/time_format"
+            android:title="@string/mobile_data_at_time" />
+
+        <com.mustafa.silentplease.fragments.TimeIntervalDialogFragment
+            android:defaultValue="5"
+            android:dialogMessage="@string/min"
+            android:key="pref_mobile_data_with_interval_on"
+            android:layout="@layout/preference_switch_item"
+            android:max="60"
+            android:summary="@string/interval_format"
+            android:title="@string/mobile_data_with_interval"
+            custom:min="1" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Disconnected</string>
+    <string name="preference_category_status">Current status</string>
+    <string name="preference_category_turn_off">Turn off</string>
+    <string name="preference_category_turn_on">Turn on</string>
+    <string name="set">Set</string>
+    <string name="set_time_interval">Set time interval</string>
+    <string name="done">Done</string>
+    <string name="min">min</string>
+    <string name="status_wifi">Wi-Fi</string>
+    <string name="status_mobile">Mobile data</string>
+    <string name="wifi_at_time">Wi-Fi at time</string>
+    <string name="time_format">%1$s:%2$s</string>
+    <string name="wifi_with_interval">Wi-Fi with interval</string>
+    <string name="mobile_data_at_time">Mobile data at time</string>
+    <string name="mobile_data_with_interval">Mobile data with interval</string>
+    <string name="interval_format">%1$s min</string>
+    <string name="interval_min">min</string>
+    <string name="positive_dialog_button">Set</string>
+    <string name="negative_dialog_button">Cancel</string>
+    <string name="notification_msg_turn_off_wifi">Turning off WiFi&#8230;</string>
+    <string name="notification_msg_turn_off_wifi_done">WiFi turned OFF</string>
+    <string name="notification_msg_turn_off_network">Turning off mobile data&#8230;</string>
+    <string name="notification_msg_turn_off_network_done">Mobile data turned OFF</string>
+    <string name="notification_msg_turn_on_wifi">Turning on WiFi&#8230;</string>
+    <string name="notification_msg_turn_on_wifi_done">WiFi turned ON</string>
+    <string name="notification_msg_turn_on_network">Turning on mobile data&#8230;</string>
+    <string name="notification_msg_turn_on_network_done">Mobile data turned ON</string>
+    <string name="alert_same_time_message">This time is already reserved for another action. Please add or subtract at least a minute.</string>
+    <string name="alert_same_time_title">Alert</string>
+    <string name="action_goto_settings">Go to Settings</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_help">Help</string>
+    <string name="help_html">help_view.html</string>
+    <string name="email_title">Turn Me Off Feedback</string>
+    <string name="email_chooser">Send email&#8230;</string>
+</resources>
